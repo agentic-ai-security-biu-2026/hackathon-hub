@@ -152,5 +152,5 @@
     }
   }
 
-  window.HubMD = { render: render, mount: mount };
+  globalThis.HubMD = { render: render, mount: mount };
 })();
