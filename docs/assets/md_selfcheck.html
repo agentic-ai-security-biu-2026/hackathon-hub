@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="utf-8"><title>md.js self-check</title></head>
+<body>
+<script src="md.js"></script>
+<script>
+  const samples = [
+    ["# Hi\n\nHello **world**", /<h1>Hi<\/h1>/, /<strong>world<\/strong>/],
+    ["| A | B |\n|---|---|\n| 1 | 2 |", /<table>/, /<th>A<\/th>/],
+    ["- a\n- b", /<ul>/, /<li>a<\/li>/],
+    ["[x](./y.md)", /href="\.\/y\.md"/],
+  ];
+  let failed = 0;
+  for (const [md, ...checks] of samples) {
+    const html = HubMD.render(md);
+    for (const re of checks) {
+      if (!re.test(html)) {
+        failed += 1;
+        console.error("FAIL", re, html);
+      }
+    }
+  }
+  document.body.textContent = failed ? "FAIL " + failed : "ok";
+  if (failed) throw new Error("md.js self-check failed: " + failed);
+</script>
+</body>
+</html>

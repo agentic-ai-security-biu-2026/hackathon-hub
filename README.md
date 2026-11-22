@@ -7,10 +7,19 @@
 Partners: **Red Hat** + **Nebius** · Amplifiers: **UNIC**, **Bridge to Industry**, Bar-Ilan **Cyber Club**  
 Teams: **3–6** · Mode: mostly remote after kickoff
 
+## Share link (landing)
+
+**GitHub Pages:** https://agentic-ai-security-il-2026.github.io/hackathon-hub/
+
+- Invitation (HTML + [`.md`](docs/invitation-en.md))
+- All track stubs under [Tracks](https://agentic-ai-security-il-2026.github.io/hackathon-hub/tracks/)
+
+Source lives in [`docs/`](docs/). Deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml) (enable **Pages → GitHub Actions** once after first push).
+
 ## Start here
 
 1. Read and agree to the [**Code of Conduct**](CODE_OF_CONDUCT.md)
-2. English invitation: [docs/invitation-en.md](docs/invitation-en.md)
+2. English invitation: [docs/invitation-en.md](docs/invitation-en.md) (or the [Pages invitation](https://agentic-ai-security-il-2026.github.io/hackathon-hub/invitation.html))
 3. Register (Form 1 / Form 2 links — published when Forms go live)
 4. Pick a challenge from the stub repos below (open set freezes by registration volume; default aim **Ch1, Ch5, Ch7** + optional **Track 0**)
 
