@@ -75,10 +75,25 @@
         continue;
       }
 
-      if (/^\|.+\|$/.test(line.trim()) && i + 1 < lines.length && /^\|[\s:-|]+\|$/.test(lines[i + 1].trim())) {
+      function isTableSep(row) {
+        return (
+          /^\|.+\|$/.test(row.trim()) &&
+          row
+            .trim()
+            .slice(1, -1)
+            .split("|")
+            .every((c) => /^[\s:-]+$/.test(c.trim()) && c.trim().length > 0)
+        );
+      }
+
+      if (/^\|.+\|$/.test(line.trim()) && i + 1 < lines.length && isTableSep(lines[i + 1])) {
         closeList();
         const rows = [];
         while (i < lines.length && /^\|.+\|$/.test(lines[i].trim())) {
+          if (isTableSep(lines[i])) {
+            i += 1;
+            continue;
+          }
           const cells = lines[i]
             .trim()
             .slice(1, -1)
@@ -86,9 +101,6 @@
             .map((c) => c.trim());
           rows.push(cells);
           i += 1;
-          if (i < lines.length && /^\|[\s:-|]+\|$/.test(lines[i].trim())) {
-            i += 1; // skip separator
-          }
         }
         html.push("<table><thead><tr>");
         rows[0].forEach((c) => html.push("<th>" + inline(c) + "</th>"));
