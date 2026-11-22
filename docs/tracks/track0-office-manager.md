@@ -17,4 +17,4 @@ Optional Nebius-run attack/defense CTF on-ramp. Diff 1–2.
 
 ## License
 
-Apache-2.0 (unless noted).
+Apache-2.0 — see `LICENSE`.

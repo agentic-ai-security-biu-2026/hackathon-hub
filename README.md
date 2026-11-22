@@ -52,4 +52,4 @@ Open an issue on this hub using the templates (infra, Nebius/LLM, challenge-conc
 
 ## License
 
-Apache-2.0 preferred for submissions unless organizers agree otherwise.
+**Apache-2.0** for the org (hub, stubs, and team submissions at judging). See [LICENSING.md](LICENSING.md).

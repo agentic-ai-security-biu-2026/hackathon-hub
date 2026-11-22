@@ -43,7 +43,7 @@ Escape / isolation learning uses **local Podman** or **pre-baked sandbox challen
 
 ## 4. IP, licensing, and publication
 
-- Submissions must be publishable in the event GitHub org (`agentic-ai-security-il-2026`) for judging (Apache-2.0 preferred unless organizers agree otherwise).
+- Submissions must be publishable in the event GitHub org (`agentic-ai-security-il-2026`) for judging under **Apache-2.0** (see `LICENSING.md`) unless organizers approve another OSI license in writing.
 - Do not include secrets, personal data, or material you do not have rights to use.
 - Use only synthetic credentials and data from starters / Track 0 — never real API keys, customer data, or production tokens in repos.
 

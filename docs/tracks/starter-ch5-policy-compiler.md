@@ -17,4 +17,4 @@ NL security policy → enforceable controls. Diff 3–4. Priority P1 / grad fit.
 
 ## License
 
-Apache-2.0 (unless noted).
+Apache-2.0 — see `LICENSE`.
