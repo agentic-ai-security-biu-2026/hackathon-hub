@@ -8,7 +8,7 @@ Dear STEM students (B.Sc. and advanced degrees),
 
 We are pleased to invite you to a focused hackathon on one of the hottest topics in security and AI: **securing enterprise agentic AI systems (Agentic AI Security)**.
 
-The event is a collaboration between **Red Hat**, **Nebius**, **UNIC** (venture-building studio), the **Bridge to Industry** program, and the **Bar-Ilan University Cyber Club**.
+The event is a collaboration between **Red Hat**, **Nebius**, the **Bar-Ilan University Faculty of Computer Science**, **UNIC** (venture-building studio), the **Bridge to Industry** program, and the **Bar-Ilan University Cyber Club**.
 
 ## Key dates
 
@@ -43,9 +43,9 @@ The open set freezes by registration volume. Stub pages and starter repos for al
 
 ## Next steps
 
-1. Read the [Code of Conduct](https://github.com/agentic-ai-security-il-2026/hackathon-hub/blob/main/CODE_OF_CONDUCT.md).
+1. Read the [Code of Conduct](https://github.com/agentic-ai-security-biu-2026/hackathon-hub/blob/main/CODE_OF_CONDUCT.md).
 2. Browse [challenge stubs](tracks/).
 3. **Early registration:** Form 1 link will appear here when it opens.
-4. Follow updates in the GitHub org [`agentic-ai-security-il-2026`](https://github.com/agentic-ai-security-il-2026).
+4. Follow updates in the GitHub org [`agentic-ai-security-biu-2026`](https://github.com/agentic-ai-security-biu-2026).
 
 We look forward to an event of innovation, technology, and security at a high bar.

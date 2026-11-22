@@ -1,10 +1,10 @@
 # Code of Conduct — Agentic AI Security Hackathon (Kickoff 13 Dec 2026 → deadline 22 Dec 2026)
 
 **Canonical home (when the org is live):**  
-`https://github.com/agentic-ai-security-il-2026/hackathon-hub/blob/main/CODE_OF_CONDUCT.md`  
+`https://github.com/agentic-ai-security-biu-2026/hackathon-hub/blob/main/CODE_OF_CONDUCT.md`  
 Ship this file as **`CODE_OF_CONDUCT.md` at the root of `hackathon-hub`**. Registration Form 1/2 and the hub README should link there (not only to this planning copy).
 
-**Partners:** Red Hat + Nebius · **Amplifiers:** university Bridge to Industry, campus Cyber Club  
+**Partners:** Red Hat + Nebius · Bar-Ilan Faculty of Computer Science · **Amplifiers:** university Bridge to Industry, campus Cyber Club  
 **Scope:** All participants, mentors, judges, and organizers — online and at hybrid opening/closing sessions.
 
 By registering (Form 1) and continuing into Form 2 / the challenge, you agree to this Code of Conduct.
@@ -43,7 +43,7 @@ Escape / isolation learning uses **local Podman** or **pre-baked sandbox challen
 
 ## 4. IP, licensing, and publication
 
-- Submissions must be publishable in the event GitHub org (`agentic-ai-security-il-2026`) for judging under **Apache-2.0** (see `LICENSING.md`) unless organizers approve another OSI license in writing.
+- Submissions must be publishable in the event GitHub org (`agentic-ai-security-biu-2026`) for judging under **Apache-2.0** (see `LICENSING.md`) unless organizers approve another OSI license in writing.
 - Do not include secrets, personal data, or material you do not have rights to use.
 - Use only synthetic credentials and data from starters / Track 0 — never real API keys, customer data, or production tokens in repos.
 

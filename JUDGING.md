@@ -20,5 +20,5 @@ Track 0 (Office Manager CTF) scoring is Nebius-defined and optional; it does not
 
 ## Submission
 
-- Repo public in `agentic-ai-security-il-2026` by **22 Dec 2026 23:59**
+- Repo public in `agentic-ai-security-biu-2026` by **22 Dec 2026 23:59**
 - Tag `submission-v1`

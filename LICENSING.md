@@ -2,7 +2,7 @@
 
 ## Org default: Apache License 2.0
 
-All public repos in [`agentic-ai-security-il-2026`](https://github.com/agentic-ai-security-il-2026) use **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** (`LICENSE` at repo root; SPDX: `Apache-2.0`).
+All public repos in [`agentic-ai-security-biu-2026`](https://github.com/agentic-ai-security-biu-2026) use **[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0)** (`LICENSE` at repo root; SPDX: `Apache-2.0`).
 
 **Why Apache-2.0 (not MIT / GPL):**
 
