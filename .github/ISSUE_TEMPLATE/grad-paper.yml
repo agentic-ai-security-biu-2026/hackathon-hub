@@ -1,0 +1,8 @@
+name: Grad / paper track
+description: Research track mentoring
+labels: [grad]
+body:
+  - type: textarea
+    id: q
+    attributes: { label: What do you need from mentors? }
+    validations: { required: true }

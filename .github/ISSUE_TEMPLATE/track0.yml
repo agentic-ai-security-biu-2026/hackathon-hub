@@ -1,0 +1,8 @@
+name: Track 0 CTF
+description: Office Manager CTF objectives / scoring (Nebius)
+labels: [track-0, partner/nebius]
+body:
+  - type: textarea
+    id: q
+    attributes: { label: Question }
+    validations: { required: true }

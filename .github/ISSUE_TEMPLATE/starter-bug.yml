@@ -1,0 +1,12 @@
+name: Starter kit bug
+description: Broken starter / docs
+labels: [sev/blocker]
+body:
+  - type: input
+    id: repo
+    attributes: { label: Starter repo }
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes: { label: Repro steps }
+    validations: { required: true }

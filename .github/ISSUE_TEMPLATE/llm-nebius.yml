@@ -1,0 +1,11 @@
+name: Nebius Token Factory / LLM
+description: Keys, quotas, model errors
+labels: [sev/question, partner/nebius]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: Problem }
+    validations: { required: true }
+  - type: input
+    id: team
+    attributes: { label: Team slug }

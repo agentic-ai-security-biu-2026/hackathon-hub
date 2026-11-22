@@ -1,0 +1,11 @@
+name: Infra / demo platform
+description: OpenShift, Podman, demo platform access
+labels: [sev/question, partner/rh]
+body:
+  - type: textarea
+    id: what
+    attributes: { label: What do you need?, description: Cluster login, quota, Podman, networking… }
+    validations: { required: true }
+  - type: input
+    id: team
+    attributes: { label: Team slug / repo }
