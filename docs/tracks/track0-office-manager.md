@@ -3,17 +3,21 @@
 **Org:** [agentic-ai-security-biu-2026](https://github.com/agentic-ai-security-biu-2026)  
 **Hub:** [hackathon-hub](https://github.com/agentic-ai-security-biu-2026/hackathon-hub) · [Code of Conduct](https://github.com/agentic-ai-security-biu-2026/hackathon-hub/blob/main/CODE_OF_CONDUCT.md)
 
+## Difficulty
+
+**1–2** (easiest) — optional Nebius-owned on-ramp. Attack-only CTF; not a build challenge.
+
 ## Status
 
-**Stub** — starter kit / CTF client pointers land closer to kickoff (**13 Dec 2026**).
+**Stub** — CTF client / join pointers land closer to kickoff (**13 Dec 2026**).
 
-Optional Nebius-run attack/defense CTF on-ramp. Diff 1–2.
+Break a fictional company’s LLM Office Manager: false publishes, secret leaks, authz bypass, cross-user injection (stretch). Scoring: fewer messages per objective = higher points.
 
 ## What goes here
 
-- Minimal runnable starter (or CTF join instructions for Track 0)
-- `SUBMIT.md` checklist for the `team-<slug>` submission repo
+- CTF join instructions / client pointers (Nebius-hosted; off RH demo OpenShift)
 - Links to hub docs (safety, Token Factory, judging)
+- Optional “Track 0 completed” badge notes
 
 ## License
 

@@ -22,16 +22,18 @@ The event is a collaboration between **Red Hat**, **Nebius**, the **Bar-Ilan Uni
 | **Submission deadline** | **22 December 2026, 23:59** |
 | **Closing & winners** | The following week at **Red Hat offices, Raanana** (selected teams + org/company reps) |
 
-## Challenges and tracks
+## Challenges and tracks (by difficulty)
 
-Designed primarily for **B.Sc.** students, and also for **M.Sc. / Ph.D.** students who want a research angle. Example tracks:
+Designed primarily for **B.Sc.** students, and also for **M.Sc. / Ph.D.** students who want a research angle:
 
-1. **Credential Escape Room** (medium–high) — agent privilege escape and defenses (e.g. SPIFFE/SPIRE).
-2. **Policy Compiler** (recommended for grad / research) — natural-language security policy → automated enforcement controls.
-3. **Seven Layers Deep** (advanced) — deep hardening of a multi-layer model-based agent.
-4. **Office Manager CTF** — experiential attack/defense challenge (optional Track 0; Nebius-supported).
+| # | Challenge | Diff | Notes |
+|---|-----------|------|-------|
+| **T0** | **Office Manager CTF** | 1–2 | Optional Nebius-owned attack on-ramp |
+| **Ch1** | **Credential Escape Room** | 3 | Blast-radius containment after credential compromise |
+| **Ch2** | **Policy Compiler** | 3–4 | NL policy → enforceable controls (grad-friendly) |
+| **Ch3** | **Seven Layers Deep** | 5 | Defense-in-depth hardening (hardest) |
 
-The open set freezes by registration volume. Stub pages and starter repos for all tracks live on this site and in the GitHub org.
+Stub pages and starter repos live on this site and in the GitHub org.
 
 ## Why participate
 
