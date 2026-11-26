@@ -6,7 +6,7 @@ body:
     id: challenge
     attributes:
       label: Challenge
-      options: [track-0, ch1, ch2, ch3, ch4]
+      options: [ch1, ch2, ch3, ch4, ch5]
     validations: { required: true }
   - type: textarea
     id: q

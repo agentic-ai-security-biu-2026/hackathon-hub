@@ -24,7 +24,7 @@ This is a **security learning event**. Attack and probe **only**:
 
 - Your own team’s project / namespace
 - Starter apps and labs provided by organizers
-- The Nebius Track 0 CTF environment (if you opted in)
+- The Nebius Ch1 CTF environment (if you opted in)
 
 **Out of scope (disqualification + possible ban):**
 
@@ -37,7 +37,7 @@ Escape / isolation learning uses **local Podman** or **pre-baked sandbox challen
 
 ## 3. Fair play
 
-- No sabotaging other teams’ work, stealing submissions, or sharing exclusive flags/solutions in a way that breaks Track 0 or challenge scoring.
+- No sabotaging other teams’ work, stealing submissions, or sharing exclusive flags/solutions in a way that breaks Ch1 or challenge scoring.
 - Mentors may help conceptually; they will not write your submission for you.
 - AI coding assistants (Cursor, Claude, Codex, etc.) are allowed unless a specific challenge says otherwise — you remain responsible for what you submit.
 
@@ -45,7 +45,7 @@ Escape / isolation learning uses **local Podman** or **pre-baked sandbox challen
 
 - Submissions must be publishable in the event GitHub org (`agentic-ai-security-biu-2026`) for judging under **Apache-2.0** (see `LICENSING.md`) unless organizers approve another OSI license in writing.
 - Do not include secrets, personal data, or material you do not have rights to use.
-- Use only synthetic credentials and data from starters / Track 0 — never real API keys, customer data, or production tokens in repos.
+- Use only synthetic credentials and data from starters / Ch1 — never real API keys, customer data, or production tokens in repos.
 
 ## 5. Confidentiality and communications
 

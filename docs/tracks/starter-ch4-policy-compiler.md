@@ -1,4 +1,4 @@
-# Ch3 — Policy Compiler
+# Ch4 — Policy Compiler
 
 **Difficulty:** 3–4 · **Mode:** Build · **Theme:** NL policy → enforceable controls (grad-friendly)  
 

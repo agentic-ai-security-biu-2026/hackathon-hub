@@ -16,7 +16,7 @@ All public repos in [`agentic-ai-security-biu-2026`](https://github.com/agentic-
 | Asset | License |
 |-------|---------|
 | `hackathon-hub` (docs, Pages landing, issue templates) | Apache-2.0 |
-| Track stubs (`track0-*`, `starter-ch*`) | Apache-2.0 |
+| Challenge stubs (`starter-ch*`) | Apache-2.0 |
 | Team submission repos (`team-*`) at judging | **Apache-2.0 required** unless organizers approve another OSI license in writing before the deadline |
 
 ## Student submissions

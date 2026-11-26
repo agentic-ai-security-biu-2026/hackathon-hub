@@ -20,14 +20,14 @@
   </nav>
   <main class="doc-page wrap">
     <a class="back" href="../">← Landing</a>
-    <h1 style="font-family:var(--font-display);letter-spacing:-0.03em;margin:0 0 0.5rem;">Track stubs</h1>
-    <p style="color:var(--muted);margin:0 0 1.5rem;max-width:40rem;">Ordered by difficulty. Full student guides live in each starter repo as <code>GUIDE.md</code>.</p>
+    <h1 style="font-family:var(--font-display);letter-spacing:-0.03em;margin:0 0 0.5rem;">Challenge stubs</h1>
+    <p style="color:var(--muted);margin:0 0 1.5rem;max-width:40rem;">Ordered by difficulty. Full guides live in each starter as <code>GUIDE.md</code>.</p>
     <ul class="track-list" id="track-picker" style="margin-bottom:2rem;">
-      <li><a href="?src=track0-office-manager.md"><span class="id">T0</span><span class="title">Office Manager CTF · Diff 1–2</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch1-credential-escape.md"><span class="id">Ch1</span><span class="title">Credential Escape Room · Diff 3</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch2-hop-budgets.md"><span class="id">Ch2</span><span class="title">Hop Budgets · Diff 3–4</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch3-policy-compiler.md"><span class="id">Ch3</span><span class="title">Policy Compiler · Diff 3–4</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch4-seven-layers.md"><span class="id">Ch4</span><span class="title">Seven Layers Deep · Diff 5</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch1-office-manager.md"><span class="id">Ch1</span><span class="title">Office Manager CTF · Diff 1–2</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch2-credential-escape.md"><span class="id">Ch2</span><span class="title">Credential Escape Room · Diff 3</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch3-hop-budgets.md"><span class="id">Ch3</span><span class="title">Hop Budgets · Diff 3–4</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch4-policy-compiler.md"><span class="id">Ch4</span><span class="title">Policy Compiler · Diff 3–4</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch5-seven-layers.md"><span class="id">Ch5</span><span class="title">Seven Layers Deep · Diff 5</span><span class="go">.md →</span></a></li>
     </ul>
     <p id="source-link" style="font-size:0.9rem;color:var(--muted);"></p>
     <article id="md-root" aria-live="polite"></article>
@@ -37,14 +37,14 @@
   <script>
     (function () {
       var allowed = {
-        "track0-office-manager.md": true,
-        "starter-ch1-credential-escape.md": true,
-        "starter-ch2-hop-budgets.md": true,
-        "starter-ch3-policy-compiler.md": true,
-        "starter-ch4-seven-layers.md": true
+        "starter-ch1-office-manager.md": true,
+        "starter-ch2-credential-escape.md": true,
+        "starter-ch3-hop-budgets.md": true,
+        "starter-ch4-policy-compiler.md": true,
+        "starter-ch5-seven-layers.md": true
       };
-      var src = new URLSearchParams(location.search).get("src") || "track0-office-manager.md";
-      if (!allowed[src]) src = "track0-office-manager.md";
+      var src = new URLSearchParams(location.search).get("src") || "starter-ch1-office-manager.md";
+      if (!allowed[src]) src = "starter-ch1-office-manager.md";
       document.querySelectorAll("#track-picker a").forEach(function (a) {
         if (a.getAttribute("href") === "?src=" + src) a.setAttribute("aria-current", "page");
       });

@@ -15,13 +15,13 @@ Teams: **3–6** · Mode: mostly remote after kickoff
 
 | # | Repo | Challenge | Diff |
 |---|------|-----------|------|
-| T0 | [`track0-office-manager`](https://github.com/agentic-ai-security-biu-2026/track0-office-manager) | Office Manager CTF (Nebius) | 1–2 |
-| Ch1 | [`starter-ch1-credential-escape`](https://github.com/agentic-ai-security-biu-2026/starter-ch1-credential-escape) | Credential Escape Room | 3 |
-| Ch2 | [`starter-ch2-hop-budgets`](https://github.com/agentic-ai-security-biu-2026/starter-ch2-hop-budgets) | Need-to-Know & Hop Budgets | 3–4 |
-| Ch3 | [`starter-ch3-policy-compiler`](https://github.com/agentic-ai-security-biu-2026/starter-ch3-policy-compiler) | Policy Compiler | 3–4 |
-| Ch4 | [`starter-ch4-seven-layers`](https://github.com/agentic-ai-security-biu-2026/starter-ch4-seven-layers) | Seven Layers Deep | 5 |
+| Ch1 | [`starter-ch1-office-manager`](https://github.com/agentic-ai-security-biu-2026/starter-ch1-office-manager) | Office Manager CTF (Nebius) | 1–2 |
+| Ch2 | [`starter-ch2-credential-escape`](https://github.com/agentic-ai-security-biu-2026/starter-ch2-credential-escape) | Credential Escape Room | 3 |
+| Ch3 | [`starter-ch3-hop-budgets`](https://github.com/agentic-ai-security-biu-2026/starter-ch3-hop-budgets) | Need-to-Know & Hop Budgets | 3–4 |
+| Ch4 | [`starter-ch4-policy-compiler`](https://github.com/agentic-ai-security-biu-2026/starter-ch4-policy-compiler) | Policy Compiler | 3–4 |
+| Ch5 | [`starter-ch5-seven-layers`](https://github.com/agentic-ai-security-biu-2026/starter-ch5-seven-layers) | Seven Layers Deep | 5 |
 
-Each starter has `GUIDE.md`, `SCENARIO.md`, `SUBMIT.md`. Organizer-only notes live in gitignored `host-notes/` (not on GitHub).
+Each starter has `GUIDE.md`, `SCENARIO.md`, `SUBMIT.md`. Organizer-only notes live in gitignored `host-notes/`.
 
 ## Start here
 

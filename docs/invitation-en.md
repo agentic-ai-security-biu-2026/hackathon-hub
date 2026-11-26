@@ -26,11 +26,11 @@ Collaboration: **Red Hat**, **Nebius**, **Bar-Ilan University Faculty of Compute
 
 | # | Challenge | Diff | Notes |
 |---|-----------|------|-------|
-| **T0** | **Office Manager CTF** | 1–2 | Optional Nebius-owned attack on-ramp |
-| **Ch1** | **Credential Escape Room** | 3 | Blast-radius containment after credential compromise |
-| **Ch2** | **Need-to-Know & Hop Budgets** | 3–4 | Data lineage / envelopes in multi-agent chains |
-| **Ch3** | **Policy Compiler** | 3–4 | NL policy → enforceable controls (grad-friendly) |
-| **Ch4** | **Seven Layers Deep** | 5 | Defense-in-depth hardening (hardest) |
+| **Ch1** | **Office Manager CTF** | 1–2 | Nebius-owned attack on-ramp |
+| **Ch2** | **Credential Escape Room** | 3 | Blast-radius containment after credential compromise |
+| **Ch3** | **Need-to-Know & Hop Budgets** | 3–4 | Data lineage / envelopes in multi-agent chains |
+| **Ch4** | **Policy Compiler** | 3–4 | NL policy → enforceable controls (grad-friendly) |
+| **Ch5** | **Seven Layers Deep** | 5 | Defense-in-depth hardening (hardest) |
 
 Each challenge repo includes a full `GUIDE.md` (expectations, grading, install).
 

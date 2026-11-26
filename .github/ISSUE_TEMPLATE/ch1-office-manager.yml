@@ -1,6 +1,6 @@
-name: Track 0 CTF
+name: Ch1 Office Manager CTF
 description: Office Manager CTF objectives / scoring (Nebius)
-labels: [track-0, partner/nebius]
+labels: [ch1, partner/nebius]
 body:
   - type: textarea
     id: q

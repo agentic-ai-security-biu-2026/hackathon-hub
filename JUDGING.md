@@ -16,7 +16,7 @@
 | Engineering quality | 20% | Tests, clarity, license, no secrets |
 | Write-up | 20% | Clear problem → approach → evidence |
 
-Track 0 (Office Manager CTF) scoring is Nebius-defined and optional; it does not replace main-challenge scoring unless a team only competes in Track 0 (announce policy at kickoff).
+Ch1 (Office Manager CTF) scoring is Nebius-defined and optional; it does not replace main-challenge scoring unless a team only competes in Ch1 (announce policy at kickoff).
 
 ## Submission
 

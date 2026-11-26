@@ -9,4 +9,4 @@ Stub. Update during the event.
 ## Infra
 
 - OpenShift demo: per-team namespace; no cluster-admin; see demo-platform-safety.md
-- Nebius Token Factory: keys after Form 2; Track 0 is Nebius-supported
+- Nebius Token Factory: keys after Form 2; Ch1 is Nebius-supported
