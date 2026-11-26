@@ -11,41 +11,25 @@ Teams: **3–6** · Mode: mostly remote after kickoff
 
 **GitHub Pages:** https://agentic-ai-security-biu-2026.github.io/hackathon-hub/
 
-- Invitation (HTML + [`.md`](docs/invitation-en.md))
-- Track stubs under [Tracks](https://agentic-ai-security-biu-2026.github.io/hackathon-hub/tracks/)
-
-Source lives in [`docs/`](docs/). Deployed by [`.github/workflows/pages.yml`](.github/workflows/pages.yml).
-
-## Start here
-
-1. Read and agree to the [**Code of Conduct**](CODE_OF_CONDUCT.md)
-2. English invitation: [docs/invitation-en.md](docs/invitation-en.md) (or the [Pages invitation](https://agentic-ai-security-biu-2026.github.io/hackathon-hub/invitation.html))
-3. Register (Form 1 / Form 2 links — published when Forms go live)
-4. Pick a challenge below (numbered by difficulty)
-
 ## Challenges (by difficulty)
 
 | # | Repo | Challenge | Diff |
 |---|------|-----------|------|
-| T0 | [`track0-office-manager`](https://github.com/agentic-ai-security-biu-2026/track0-office-manager) | Office Manager CTF (optional, Nebius) | 1–2 |
+| T0 | [`track0-office-manager`](https://github.com/agentic-ai-security-biu-2026/track0-office-manager) | Office Manager CTF (Nebius) | 1–2 |
 | Ch1 | [`starter-ch1-credential-escape`](https://github.com/agentic-ai-security-biu-2026/starter-ch1-credential-escape) | Credential Escape Room | 3 |
-| Ch2 | [`starter-ch2-policy-compiler`](https://github.com/agentic-ai-security-biu-2026/starter-ch2-policy-compiler) | Policy Compiler | 3–4 |
-| Ch3 | [`starter-ch3-seven-layers`](https://github.com/agentic-ai-security-biu-2026/starter-ch3-seven-layers) | Seven Layers Deep | 5 |
+| Ch2 | [`starter-ch2-hop-budgets`](https://github.com/agentic-ai-security-biu-2026/starter-ch2-hop-budgets) | Need-to-Know & Hop Budgets | 3–4 |
+| Ch3 | [`starter-ch3-policy-compiler`](https://github.com/agentic-ai-security-biu-2026/starter-ch3-policy-compiler) | Policy Compiler | 3–4 |
+| Ch4 | [`starter-ch4-seven-layers`](https://github.com/agentic-ai-security-biu-2026/starter-ch4-seven-layers) | Seven Layers Deep | 5 |
 
-Private `team-<slug>` repos are created after Form 2.
+Each starter has `GUIDE.md`, `SCENARIO.md`, `SUBMIT.md`. Organizer-only notes live in gitignored `host-notes/` (not on GitHub).
 
-## Docs
+## Start here
 
-- [Judging](JUDGING.md) (stub)
-- [Demo platform safety](docs/demo-platform-safety.md)
-- [Nebius Token Factory quickstart](docs/nebius-token-factory-quickstart.md)
-- [Mentorship SLA](docs/mentorship-sla.md)
-- [FAQ](docs/faq.md)
-
-## Support
-
-Open an issue on this hub using the templates (infra, Nebius/LLM, challenge-concept, starter-bug, track0, grad-paper).
+1. [Code of Conduct](CODE_OF_CONDUCT.md)
+2. [Invitation](docs/invitation-en.md)
+3. Register (Form links when live)
+4. Pick a challenge and read its `GUIDE.md`
 
 ## License
 
-**Apache-2.0** for the org (hub, stubs, and team submissions at judging). See [LICENSING.md](LICENSING.md).
+**Apache-2.0** — see [LICENSING.md](LICENSING.md).

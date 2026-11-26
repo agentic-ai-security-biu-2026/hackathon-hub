@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Tracks — Agentic AI Security Hackathon 2026</title>
-  <meta name="description" content="Four challenge stubs ordered by difficulty.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
@@ -19,53 +18,37 @@
       <li><a href="https://github.com/agentic-ai-security-biu-2026">GitHub org</a></li>
     </ul>
   </nav>
-
   <main class="doc-page wrap">
     <a class="back" href="../">← Landing</a>
     <h1 style="font-family:var(--font-display);letter-spacing:-0.03em;margin:0 0 0.5rem;">Track stubs</h1>
-    <p style="color:var(--muted);margin:0 0 1.5rem;max-width:40rem;">
-      Four challenges, ordered by difficulty. Open a stub below or the matching starter repo in the org.
-    </p>
-
+    <p style="color:var(--muted);margin:0 0 1.5rem;max-width:40rem;">Ordered by difficulty. Full student guides live in each starter repo as <code>GUIDE.md</code>.</p>
     <ul class="track-list" id="track-picker" style="margin-bottom:2rem;">
       <li><a href="?src=track0-office-manager.md"><span class="id">T0</span><span class="title">Office Manager CTF · Diff 1–2</span><span class="go">.md →</span></a></li>
       <li><a href="?src=starter-ch1-credential-escape.md"><span class="id">Ch1</span><span class="title">Credential Escape Room · Diff 3</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch2-policy-compiler.md"><span class="id">Ch2</span><span class="title">Policy Compiler · Diff 3–4</span><span class="go">.md →</span></a></li>
-      <li><a href="?src=starter-ch3-seven-layers.md"><span class="id">Ch3</span><span class="title">Seven Layers Deep · Diff 5</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch2-hop-budgets.md"><span class="id">Ch2</span><span class="title">Hop Budgets · Diff 3–4</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch3-policy-compiler.md"><span class="id">Ch3</span><span class="title">Policy Compiler · Diff 3–4</span><span class="go">.md →</span></a></li>
+      <li><a href="?src=starter-ch4-seven-layers.md"><span class="id">Ch4</span><span class="title">Seven Layers Deep · Diff 5</span><span class="go">.md →</span></a></li>
     </ul>
-
     <p id="source-link" style="font-size:0.9rem;color:var(--muted);"></p>
     <article id="md-root" aria-live="polite"></article>
   </main>
-
-  <footer class="site-footer">
-    <div class="wrap">
-      <span>Canonical starter repos live under the event GitHub org.</span>
-      <a href="../invitation.html">Invitation →</a>
-    </div>
-  </footer>
-
+  <footer class="site-footer"><div class="wrap"><span>Starter repos under the event org.</span><a href="../invitation.html">Invitation →</a></div></footer>
   <script src="../assets/md.js"></script>
   <script>
     (function () {
       var allowed = {
         "track0-office-manager.md": true,
         "starter-ch1-credential-escape.md": true,
-        "starter-ch2-policy-compiler.md": true,
-        "starter-ch3-seven-layers.md": true
+        "starter-ch2-hop-budgets.md": true,
+        "starter-ch3-policy-compiler.md": true,
+        "starter-ch4-seven-layers.md": true
       };
-      var params = new URLSearchParams(window.location.search);
-      var src = params.get("src") || "track0-office-manager.md";
+      var src = new URLSearchParams(location.search).get("src") || "track0-office-manager.md";
       if (!allowed[src]) src = "track0-office-manager.md";
-
       document.querySelectorAll("#track-picker a").forEach(function (a) {
-        if (a.getAttribute("href") === "?src=" + src) {
-          a.setAttribute("aria-current", "page");
-        }
+        if (a.getAttribute("href") === "?src=" + src) a.setAttribute("aria-current", "page");
       });
-
-      document.getElementById("source-link").innerHTML =
-        'Markdown source: <a href="' + src + '">' + src + "</a>";
+      document.getElementById("source-link").innerHTML = 'Markdown source: <a href="' + src + '">' + src + "</a>";
       HubMD.mount(document.getElementById("md-root"), src);
     })();
   </script>
